@@ -1,0 +1,149 @@
+.main{
+    background-image: url(incontrol.png);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.whyus{
+    background-color:  #5478b2E7;
+    height: 400px;
+    
+}
+.whyus img{
+    height: 350px;
+    width: 300px;
+    float:left;
+    border-radius: 5px;
+    margin:20px 20px;
+}
+.whyus p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.whyus h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+.text{
+    padding-top: 100px;
+}
+.services{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #e4e4e4;
+    justify-content: center;
+
+}
+.services .card{
+    background-color:  white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.services .card h2{
+    padding:bottom 15px;
+
+}
+.services .cardimg1{
+background-color:#5478b2E7 ;
+height: 150px;
+margin-bottom: 15px;
+border-radius: 10px;
+background-image: url(blueman.png);
+}
+
+.services .cardimg2{
+    background-color:#5478b2E7 ;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-image: url(whiteman.png);
+    }
+
+    .services .cardimg3{
+        background-color:#5478b2E7 ;
+        height: 150px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-image: url(pipeman.png);
+        }
+        .services .cardimg4{
+            background-color:#5478b2E7 ;
+            height: 150px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background-image: url(gutterman.png);
+            }
+.bookconsult{
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.bookconsult form{
+    background-color: #5478b2E7;
+    border-radius: 5px;
+    width: 450px;
+    height:350px ;
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 60px;
+    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bookconsult input[type =text]{
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    margin-bottom:4px;
+    border-style: none;
+    
+    
+}
+.bookconsult input lname{
+margin-bottom: 30px;
+}
+.bookconsult label{
+display: inline-block;
+width: 140px;
+text-transform: uppercase;
+
+}
+.bookconsult input[type =submit]{
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+    height: 40px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fname{
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+.lname{
+    padding-bottom: 15px;
+}
+.email{
+    padding-bottom: 15px;
+}
+.bookconsult h1{
+    padding-top: 50px;
+}
